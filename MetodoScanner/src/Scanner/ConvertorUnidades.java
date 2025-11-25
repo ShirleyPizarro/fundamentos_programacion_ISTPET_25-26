@@ -10,7 +10,7 @@ public class ConvertorUnidades {
 		System.out.println("Ingrese la distancia en metros");
 		Double metros = sc.nextDouble();
 		
-		Double kilometros = metros/1000;
+		Double kilometros = metros/10000;
 		Double centimetros = metros *100;
 		Double pies = metros * 3.28084;
 		System.out.println("En KILOMETROS ES:"+ kilometros);
